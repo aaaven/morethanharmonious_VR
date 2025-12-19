@@ -1,0 +1,75 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "InteractionSdk"
+  }
+  digests {
+    sha256: ":P\017p\315o\265u\355\311\214\326\001\220\374\230\001\343\026\030\372\206\271i\374\321i\2237Y\215h"
+  }
+}
+library {
+  maven_library {
+    artifactId: "OVRPlugin"
+  }
+  digests {
+    sha256: "Kz?\322ATu\237\364\201\215\371?\233\315YY\004=\203A*Rm\2743\271\333C@\262\000"
+  }
+}
+library {
+  maven_library {
+    artifactId: "SDKTelemetry"
+  }
+  digests {
+    sha256: "\243\301\306\273\271\241x\337\335X\vo\334\213\313\023\207\232\271`\b\374\235{]\373\354gX8\246\325"
+  }
+}
+library {
+  digests {
+    sha256: "Z\247\345q\234\327\343\312\342\340k\237+\354%]8s\307d\206\254]\370\343O5\360D\360\024L"
+  }
+}
+library {
+  digests {
+    sha256: "S\274lu`\277g\217t\006\006r\021\333U\322\275\251}\3753/\216T\221p/\377\253\271[E"
+  }
+}
+library {
+  digests {
+    sha256: "|a\325\345\314\033!\235\031\252\237=h7\210\323\247\3119\244|t\222\202\361\365\362\210\035{N\337"
+  }
+}
+library {
+  digests {
+    sha256: "\306c\001\254(\204\a\254\325`(C\211\300~\324\244l(\243&x\315\221r<?\373\037ZJ\337"
+  }
+}
+library {
+  digests {
+    sha256: "k\327]\361k \254\006}#\200\311\313\217Il\274i\3764l\224\204g{\255\035d\024\304W\031"
+  }
+}
+library_dependencies {
+  library_index: 3
+}
+library_dependencies {
+  library_index: 4
+}
+library_dependencies {
+  library_index: 5
+}
+library_dependencies {
+  library_index: 6
+}
+library_dependencies {
+  library_index: 7
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 3
+  dependency_index: 4
+  dependency_index: 5
+  dependency_index: 6
+  dependency_index: 7
+}

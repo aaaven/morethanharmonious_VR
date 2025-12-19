@@ -1,0 +1,197 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:glEsVersion="0x00030000" />
+11-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-52
+11-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-49
+12    <uses-feature
+12-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-91
+13        android:name="android.hardware.vulkan.version"
+13-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-63
+14        android:required="false" />
+14-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:64-88
+15
+16    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+16-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-77
+16-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:24-74
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-65
+18-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:20-62
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-77
+19-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-74
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-69
+20-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:20-66
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-78
+21-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:20-75
+22
+23    <uses-feature
+23-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-87
+24        android:name="android.hardware.microphone"
+24-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-59
+25        android:required="false" />
+25-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:60-84
+26    <uses-feature
+26-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-88
+27        android:name="android.hardware.touchscreen"
+27-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-60
+28        android:required="false" />
+28-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:61-85
+29    <uses-feature
+29-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-99
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-71
+31        android:required="false" />
+31-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:72-96
+32    <uses-feature
+32-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-108
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:17-80
+34        android:required="false" />
+34-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:81-105
+35    <uses-feature
+35-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-111
+36        android:name="android.hardware.vr.headtracking"
+36-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:17-64
+37        android:required="true"
+37-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:65-88
+38        android:version="1" />
+38-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:89-108
+39
+40    <application
+40-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-24:17
+41        android:allowBackup="false"
+41-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:114-141
+42        android:extractNativeLibs="true"
+42-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+43        android:icon="@mipmap/app_icon"
+43-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:82-113
+44        android:label="@string/app_name"
+44-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-81
+45        android:networkSecurityConfig="@xml/network_sec_config" >
+45-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:142-197
+46        <activity
+46-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+47            android:name="com.unity3d.player.UnityPlayerActivity"
+47-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+48            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+48-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:204-305
+49            android:hardwareAccelerated="false"
+49-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:341-376
+50            android:launchMode="singleTask"
+50-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:172-203
+51            android:resizeableActivity="false"
+51-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:306-340
+52            android:screenOrientation="landscape"
+52-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:134-171
+53            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+53-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-133
+54            <intent-filter>
+54-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+55                <action android:name="android.intent.action.MAIN" />
+55-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+55-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+57-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+58                <category android:name="com.oculus.intent.category.VR" />
+58-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+58-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+59            </intent-filter>
+60
+61            <meta-data
+61-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+62                android:name="unityplayer.UnityActivity"
+62-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+63                android:value="true" />
+63-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+64            <meta-data
+64-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+65                android:name="android.notch_support"
+65-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+66                android:value="true" />
+66-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+67            <meta-data
+67-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-81
+68                android:name="com.oculus.vr.focusaware"
+68-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-57
+69                android:value="true" />
+69-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:58-78
+70        </activity>
+71
+72        <meta-data
+72-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+73            android:name="unity.splash-mode"
+73-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+74            android:value="0" />
+74-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+75        <meta-data
+75-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+76            android:name="unity.splash-enable"
+76-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+77            android:value="True" />
+77-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+78        <meta-data
+78-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+79            android:name="unity.launch-fullscreen"
+79-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+80            android:value="True" />
+80-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+81        <meta-data
+81-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-81
+82            android:name="notch.config"
+82-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+83            android:value="portrait|landscape" />
+83-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:44-78
+84        <meta-data
+84-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-84
+85            android:name="unity.auto-report-fully-drawn"
+85-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-60
+86            android:value="true" />
+86-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:61-81
+87        <meta-data
+87-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-97
+88            android:name="com.samsung.android.vr.application.mode"
+88-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-70
+89            android:value="vr_only" />
+89-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:71-94
+90        <meta-data
+90-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-91
+91            android:name="com.unity.xr.oculus.LowOverheadMode"
+91-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-66
+92            android:value="false" />
+92-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:67-88
+93        <meta-data
+93-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-88
+94            android:name="com.unity.xr.oculus.LateLatching"
+94-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-63
+95            android:value="false" />
+95-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:64-85
+96        <meta-data
+96-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-93
+97            android:name="com.unity.xr.oculus.LateLatchingDebug"
+97-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-68
+98            android:value="false" />
+98-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:69-90
+99        <meta-data
+99-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-93
+100            android:name="com.oculus.supportedDevices"
+100-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-58
+101            android:value="quest2|questpro" />
+101-->D:\linz\vr\test\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:59-90
+102    </application>
+103
+104</manifest>

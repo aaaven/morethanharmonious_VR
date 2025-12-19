@@ -1,0 +1,2 @@
+com/DefaultCompany/test/BuildConfig.java
+ com.DefaultCompany.test.BuildConfig
